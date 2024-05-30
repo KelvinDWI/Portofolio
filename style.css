@@ -1,0 +1,211 @@
+body {
+    min-height: 3000px;
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #333646;
+    
+}
+
+.color-acsent{
+    color : #FF9100;
+}
+
+.nav-link.active {
+    color:#252734;
+    font-weight: 700;
+}
+.navbar-dark{
+    background-color: #252734!important;
+}
+
+.color-name{
+    color: white;
+}
+
+#gallery {
+    background-color: #252734;
+    margin-top: -80px;
+}
+
+.btn {
+    background-color: #FF9100;
+    width: 150px;
+}
+
+.btn-custom1{
+    background-color: #FF9100;
+    text-align: center;
+    color: white;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    
+}
+
+.btn:hover {
+    background-color: rgb(202, 193, 108);
+    border-color: rgb(202, 193, 108);
+}
+
+
+a.text-dark {
+    text-decoration: none;
+}
+
+section {
+    padding-top: 5rem;
+    background-color: #252734;
+}
+
+section h2{
+    color: white;
+}
+
+section p{
+    color: white;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 300px;
+	height: 300px;
+	border-radius: 100%;
+}
+
+/* About */
+#about{
+    margin-top: auto;
+}
+/* end About */
+
+/* skill */
+#skill{
+color: #FF9100;
+background-color: #333646;
+margin-top: -80px;
+}
+
+#skill h3{
+    color: white;
+}
+
+#skill img{
+    width: 12%;
+    margin: 10px;
+    margin-bottom: 80px;
+}
+
+#skill .card{
+    background-color: #414558;
+    height: 340px;
+    width: 300px;
+}
+
+#skill .card:hover{
+    background-color: #FF9100;
+}
+
+#skill-konten{
+    margin-top: 120px;
+    margin-right: 100px;
+}
+/* end skill */
+
+/* sertifikat */
+#sertifikat {
+    margin-top: -100px;
+    padding: auto;
+    background-color: #252734;
+}
+
+#sertifikat p,a {
+    color:white!important;
+}
+
+
+#sertifikat img {
+    width: 49%;
+    padding: 10px;
+}
+
+/* end sertifikat */
+
+/* portopolio */
+#portopolio {
+    margin-top: -100px;
+    background-color: #333646;
+    color: white;
+   
+}
+
+#portopolio img{
+    width :200px;
+    height:200px;
+    border-radius: 10%;
+}
+
+#portopolio .card{
+    background-color: #414558;
+    height: 520px;
+    width: 300px;
+    border-radius: 10%;
+}
+
+#portopolio-konten{
+    margin-top: 120px;
+    margin-right: 100px;
+}
+
+#portopolio h1{
+    margin-bottom: 30px;
+}
+
+/* end portopolio */
+
+/* History */
+#history{
+    color: #FF9100;
+    background-color: #252734;
+    margin-top: -80px;
+}
+
+#history h1{
+    margin-bottom: 30px;
+}
+    
+#history img{
+        width: 70%;
+        margin: 10px;
+        margin-bottom: 5px;
+}
+
+#history .card{
+    background-color: #414558;
+    height: 360px;
+    width: 200px;
+}
+
+#history-konten{
+    margin-top: 120px;
+    margin-right: 100px;
+}
+/* History */
+
+footer {
+    background-color: #333646;
+    color: white;
+}
