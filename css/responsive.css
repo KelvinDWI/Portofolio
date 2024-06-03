@@ -1,92 +1,100 @@
-    
-    @media screen and (max-width: 480px) {
-    
-        /* navigation */
-        .nav-link.active {
-            color:#252734;
-            font-weight: 700;
-        }
-        .navbar-dark{
-            background-color: #252734!important;
-        }
-    
-        :root {
-            --sectionPadding: 4rem 0;
-        }
-    
-        .section-title {
-            font-size: 1.6rem;
-            margin: 0.6rem 0 2.5rem;
-        }
-    
-        .relative {
-            font-size: 1rem;
-        }
-    
-        /* Hero Section */
-        #jumbotron {
-            grid-template-columns: 1fr;
-            height: fit-content;
-        }
-        .kartu-tutor{
-            order: -1;
-        }
-    
-        .kartu-tutor img{
-            width: 70%;
-        }
-    
-        /* about */
-        #about {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            margin-bottom: 60px;
-        }
-    
-        /* Skills Section */
-        #skill {
-            display: grid;
-            gap: 1rem;
-            margin-bottom: 70px;
-            justify-content: center;
-        }
-
-        #skill img{
-            width: 20%;
-        }
-
-        .skill-konten{
-            margin-left: 40px;
-        }
-
-    
-        #sertifikat{
-            margin-bottom: 70px;
-        }
-        /* Contact */
-        #portopolio {
-            display: grid;
-            margin-bottom: 45px;
-        }
-
-
-        .portopolio-konten{
-            margin-left: 40px;
-        }
-
-        /* History */
-
-        #history{
-            display: grid;
-        }
-
-        .history-konten{
-            margin-left: 9rem;
-        }
-    
-        /* Footer Section */
-       #footer {
-            padding: 2rem;
-        }
+@media screen and (max-width: 480px) {
+    /* navigation */
+    .nav-link.active {
+        color: #252734;
+        font-weight: 700;
     }
+    .navbar-dark {
+        background-color: #252734 !important;
+    }
+
+    :root {
+        --sectionPadding: 2rem 0; /* Reduced padding for smaller screens */
+    }
+
+    .section-title {
+        font-size: 1.4rem; /* Slightly smaller font size for section titles */
+        margin: 0.6rem 0 1.5rem; /* Adjusted margin */
+    }
+
+    .relative {
+        font-size: 0.9rem; /* Slightly smaller font size */
+    }
+
+    /* Hero Section */
+    #jumbotron {
+        grid-template-columns: 1fr;
+        height: fit-content;
+    }
+    .kartu-tutor {
+        order: -1;
+    }
+
+    .kartu-tutor img {
+        width: 70%;
+    }
+
+    /* about */
+    #about {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 40px; /* Adjusted margin */
+        padding: 0 1rem; /* Added padding for better spacing */
+    }
+
+    /* Skills Section */
+    #skill {
+        display: grid;
+        gap: 1rem;
+        margin-bottom: 50px; /* Adjusted margin */
+        justify-content: center;
+    }
+
+    #skill img {
+        width: 50%; /* Increased width for better visibility on small screens */
+    }
+
+    .skill-konten {
+        margin-left: 20px; /* Reduced margin for smaller screens */
+        font-size: 0.9rem; /* Smaller font size */
+    }
+
+    #skill .card {
+        margin: 1rem; /* Maintain margin for spacing between cards */
+    }
+
+    #sertifikat {
+        margin-bottom: 50px; /* Adjusted margin */
+    }
+
+    /* Contact */
+    #portopolio {
+        display: grid;
+        margin-bottom: 45px;
+        padding: 0 1rem; /* Added padding for better spacing */
+    }
+
+    .portopolio-konten {
+        margin-left: 20px; /* Reduced margin for smaller screens */
+        font-size: 0.9rem; /* Smaller font size */
+    }
+
+    /* History */
+    #history {
+        display: grid;
+        padding: 0 1rem; /* Added padding for better spacing */
+    }
+
+    .history-konten {
+        margin-left: 1rem; /* Reduced margin for smaller screens */
+        font-size: 0.9rem; /* Smaller font size */
+    }
+
+    /* Footer Section */
+    #footer {
+        padding: 1rem; /* Adjusted padding */
+        text-align: center; /* Centered text for better alignment on small screens */
+        font-size: 0.9rem; /* Smaller font size */
+    }
+}
