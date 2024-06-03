@@ -31,7 +31,7 @@
     }
 
     .kartu-tutor img {
-        width: 70%;
+        width: 60%;
     }
 
     /* about */
@@ -52,7 +52,7 @@
     }
 
     #skill img {
-        width: 50%; /* Increased width for better visibility on small screens */
+        width: 30%; /* Increased width for better visibility on small screens */
     }
 
     .skill-konten {
