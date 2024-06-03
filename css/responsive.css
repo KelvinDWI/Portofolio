@@ -13,7 +13,7 @@
         }
     }
     
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 800px) {
     
         /* navigation */
         .nav-link.active {
@@ -74,9 +74,6 @@
             margin-left: 40px;
         }
 
-        #skill .card{
-            margin: 1rem;
-        }
     
         #sertifikat{
             margin-bottom: 70px;
@@ -87,9 +84,6 @@
             margin-bottom: 45px;
         }
 
-        #portopolio .card{
-            margin: 1rem;
-        }
 
         .portopolio-konten{
             margin-left: 40px;
