@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
     /* navigation */
     #body {
         max-width: 100%;
@@ -16,7 +16,7 @@
     }
 
     :root {
-        --sectionPadding: 4rem 0; 
+        --sectionPadding: 2rem 0; 
     }
 
     .section-title {
