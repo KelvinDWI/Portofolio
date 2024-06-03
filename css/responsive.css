@@ -72,8 +72,7 @@
     /* Contact */
     #portopolio {
         display: grid;
-        margin-bottom: 45px;
-        padding: 0 1rem; /* Added padding for better spacing */
+        margin-bottom: 5px;
     }
 
     .portopolio-konten {
