@@ -1,19 +1,5 @@
+    
     @media screen and (max-width: 1000px) {
-        p {
-        font-size: 0.9rem;
-        line-height: 1.8rem;
-        }   
-    
-        .grid-3 {
-        gap: 1rem;
-        }
-    
-        .skills-right ul li {
-        font-size: 0.9rem;
-        }
-    }
-    
-    @media screen and (max-width: 800px) {
     
         /* navigation */
         .nav-link.active {
@@ -47,7 +33,7 @@
         }
     
         .kartu-tutor img{
-            width: 60%;
+            width: 70%;
         }
     
         /* about */
