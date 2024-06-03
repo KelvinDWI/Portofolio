@@ -14,7 +14,7 @@
     }
 
     :root {
-        --sectionPadding: 2rem 0; /* Reduced padding for smaller screens */
+        --sectionPadding: 3rem 0; /* Reduced padding for smaller screens */
     }
 
     .section-title {
