@@ -119,9 +119,8 @@ margin-top: -80px;
     background-color: #FF9100;
 }
 
-#skill-konten{
-    margin-top: 120px;
-    margin-right: 100px;
+.skill-konten{
+   justify-content: center;
 }
 /* end skill */
 
