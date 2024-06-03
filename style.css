@@ -165,9 +165,9 @@ margin-top: -80px;
     border-radius: 10%;
 }
 
-#portopolio-konten{
-    margin-top: 120px;
-    margin-right: 100px;
+.portopolio-konten{
+     justify-content: center;
+    margin-left: 30px;
 }
 
 #portopolio h1{
@@ -199,9 +199,9 @@ margin-top: -80px;
     width: 200px;
 }
 
-#history-konten{
-    margin-top: 120px;
-    margin-right: 100px;
+.history-konten{
+    justify-content: center;
+    margin-left: 30px;
 }
 /* History */
 
